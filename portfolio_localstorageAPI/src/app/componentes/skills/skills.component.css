@@ -54,10 +54,12 @@
   }
 
   
- .wrap-data h4{
-    background: linear-gradient(45deg, #22a6b3, #30336b);
-    padding: 4px 12px;
-    color: chartreuse; 
+ .wrap-data h4{ 
+    padding: 4px 12px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: chartreuse;
+    border: 1px solid blue;
     display: inline;
   }
 /*---------------*/

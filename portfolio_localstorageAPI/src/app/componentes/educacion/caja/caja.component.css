@@ -31,9 +31,8 @@
 #institucion {
     font-size: 14px;
     display: inline;
-    background: linear-gradient(45deg, #22a6b3, #30336b);
-    padding: 0px 4px 1px 4px;
-    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    font-style: italic;
   }
    
   
@@ -44,8 +43,8 @@
   }
   
   #title {
-    font-size: 22px;
-    letter-spacing: -1px;
+    font-size: 22px;font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;font-weight: 600;
   }
   @media (max-width:820px) {
    

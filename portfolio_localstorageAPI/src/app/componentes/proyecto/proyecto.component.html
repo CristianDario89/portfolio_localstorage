@@ -15,41 +15,35 @@
 </div>
 
 <div class="card" id="card-experiencia">
-<!-- 
- <div class="card-titles">
-    <button (click)= "show=!show" class="btn"><i class= "fa fa-plus"></i></button>
- </div>
--->
  
    <div class="row">
 
     <div class="col-sm-12 col-md-6 col-lg-6 parte1" *ngFor="let proyecto of proyectoList">
 
-      <div class="one mt-2">
-        <p class="titulo">{{proyecto.nombre}}</p>
-
-        <!--
-   <div class="wrap-btns">
-          <button (click)="actualizarProyecto(proyecto.id)" class="btnEdu"><i class="fa-solid fa-pen-to-square"></i></button>
-          <button (click)="eliminarPro(proyecto.id)" class="btnEdu"><i class="fa-solid fa-trash"></i></button>
+        <div class="one">
+          <p class="titulo">{{proyecto.nombre}}</p>
+  
         </div>
--->
+
+        <p class="link-proyecto"><a [href]="proyecto.end" target="_blank">visitar proyecto</a></p>
+        
+     
+          <p class="p-descripcion">{{proyecto.descripcion}}</p>
        
+        <div class="wrap-marcoimg">
+          <div class="tiriras">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="parte2">
+            <img [src]= "proyecto.img" class="img-fluid">
+          </div>
+        </div>
 
-      </div>
-      <p class="link-proyecto"><a [href]="proyecto.end" target="_blank">visitar proyecto</a></p>
-      <div class="p-descripcion">
-        <p>{{proyecto.descripcion}}</p>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-12 parte2">
-        <img [src]= "proyecto.img" class="img-fluid">
-      </div>
-
+      
 
     </div>
 
+   </div>
  
-  </div>
-
-
 </div>

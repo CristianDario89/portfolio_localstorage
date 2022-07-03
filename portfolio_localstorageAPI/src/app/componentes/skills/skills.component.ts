@@ -19,7 +19,7 @@ export class skillsComponent implements OnInit {
     "img":"./assets/ang2.png"
 },
 {
-    "habilidad":"Front end",
+    "habilidad":"Back end",
     "img":"../assets/node2.png"
 },
 {

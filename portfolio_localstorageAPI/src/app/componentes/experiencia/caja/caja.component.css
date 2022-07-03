@@ -17,16 +17,17 @@
     margin: auto;
   }
   #title { 
-    font-size: 22px; 
+    font-size: 22px; font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   #puesto {
     font-size: 14px;
     letter-spacing: -1px;
-    display: inline;
-    background: linear-gradient(45deg, #22a6b3, #30336b);
-    padding: 0px 6px;
-    color: white;
+    display: inline; 
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    
   } 
   #time {
     font-style: italic;

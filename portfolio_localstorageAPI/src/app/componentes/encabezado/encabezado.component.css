@@ -74,6 +74,7 @@ width:30px;height: 30px;
 }
 .wrap-datos  {
 margin-top: 5px;
+
 }
 
 /*------------*/
@@ -147,9 +148,11 @@ margin-top: 5px;
 
 #info-profesion{
 	font-size: 25px;
+	font-family: 'Courier New', Courier, monospace;
 }
 .info-origen{
 	  margin-top: 3px;font-style: italic;
+	  font-family: 'Courier New', Courier, monospace;
 }
 .img-wrapper:hover h2 {
 	transform: perspective(400px) rotateY(0deg);
@@ -218,13 +221,21 @@ margin-top: 5px;
 	padding: 0 40px;
 	height: 60px;
 	overflow: hidden; 
-}
 
+
+
+}
+.wrap-animated{
+	position: absolute;z-index: 111;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 .line a {
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
 	line-height: 60px;
 	color: tomato;
 	
@@ -448,12 +459,12 @@ ul li:hover {
 	}
 
 	.img-wrapper h2 span {
-		padding-right: 25px;
+		padding-right: 10px;
 	}
  
 	/*---------*/
 	.line a {
-		font-size: 22px;
+		font-size: 42px;
 		line-height: 60px;
 		 
 	}
