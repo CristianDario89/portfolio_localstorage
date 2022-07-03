@@ -1,7 +1,7 @@
 .wrap{
   background: #020202;
   height: 100vh;
-
+  font-family: 'Courier New', Courier, monospace;
   display: flex;justify-content: center; 
 }
 div#MainLogin {
@@ -40,14 +40,13 @@ transform:skew(0deg, 0deg);
   text-align: left;
 }
 
-.TopLogin p {
-  font-family: arial;
+.TopLogin p { 
   font-size: 40px;
   color: white;
 }
 
 .OuterLogin label {
-  font-family: sans-serif;
+  
   color: azure;
   font-size: 19px;
 }
@@ -60,7 +59,20 @@ input#sb {
   border: none;
   border-radius: 31px;
   color: #ffffff;
-  font-size: 18px;
-  font-family: monospace;
+  font-size: 18px; 
   padding: 11px 124px;
+}
+/*--------------*/
+.OuterLogin form button{
+  padding: 1.5px 16px;
+	margin-right: 2px;
+	background-color: tomato;
+	color: white;
+	border: 1px solid grey;
+	border-radius: 6%;
+
+	display: inline;
+	
+	letter-spacing: -1px;
+	word-spacing: -4px;
 }

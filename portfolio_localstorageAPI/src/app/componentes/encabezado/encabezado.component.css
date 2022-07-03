@@ -54,8 +54,8 @@
 	transform: scale(1.7);
 }
 .wrapLogos{
-	display:grid;
-	grid-template-columns: 3fr 1fr;
+	display:flex; 
+	 
 } 
 .wrap-milogo{
 	display: flex;justify-content: center;align-items: center;
@@ -214,12 +214,10 @@ margin-top: 5px;
 }
 
 /*--------Text animation-----------*/
-.animated-text {
-	color: #fff;
+.animated-text { 
 	padding: 0 40px;
 	height: 60px;
-	overflow: hidden;
-	font-family: cursive;
+	overflow: hidden; 
 }
 
 .line a {
@@ -425,6 +423,10 @@ ul li:hover {
 
 /*------------------*/
 @media (max-width:820px) {
+	#first-card{
+		height:85vh;
+		margin: 5px auto 5px auto;
+	}
 	.nombre-completo {
 		display: inline;
 		font-family: 'Montserrat Subrayada', sans-serif;
@@ -451,18 +453,18 @@ ul li:hover {
  
 	/*---------*/
 	.line a {
-		font-size: 12px;
+		font-size: 22px;
 		line-height: 60px;
-
+		 
 	}
 
-	.line {
-		transform: scaleY(1.4);
+	.animated-text {
+		transform:translateX(-5px);
 	}
- 
 	/*------------*/
-	#logoAP2{
-		margin-right: 15px;
+
+	#logoAP2{ 
 		width:20px;height: 20px;
+		transform:translateX(-5px);
 		}
 }
