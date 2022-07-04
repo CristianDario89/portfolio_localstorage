@@ -37,7 +37,25 @@ export class EducacionService {
     "start":"Jun 2020",
     "end":"Sep 2020",
     "hide":true
-} 
+},
+{
+    "id":4, 
+    "institucion":"OM Personal",
+    "title":"Inglés B1 B2 C1 ",
+    "img":"./assets/educacion/1.png",
+    "start":"Nov 2015",
+    "end":"Jul 2017",
+    "hide":true
+},
+{
+    "id":5, 
+    "institucion":"Edutin",
+    "title":"Francés A1 A2",
+    "img":"./assets/img/edutin.png",
+    "start":"Nov 2019",
+    "end":"Ago 2020",
+    "hide":true
+}  
 ];
   }
  
